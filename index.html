@@ -13,7 +13,10 @@
 </head>
 <body>
 
-<h1>Outlook</h1>
+<h1 class="title">
+  <img src="apple-touch-icon.png" alt="Outlook" class="title-logo">
+  Outlook
+</h1>
 
 <div id="login">
   <input id="email" type="email" placeholder="Email" autocomplete="email">
@@ -43,12 +46,12 @@
 
 <script>
   const firebaseConfig = {
-  apiKey: "AIzaSyBzFCuI63T9eoEAqjcUD43c5zG99hPFKms",
-  authDomain: "outlook-3a951.firebaseapp.com",
-  projectId: "outlook-3a951",
-  storageBucket: "outlook-3a951.firebasestorage.app",
-  messagingSenderId: "242691869386",
-  appId: "1:242691869386:web:c2e51e2c8ec62a1ff64233",
+    apiKey: "AIzaSyBzFCuI63T9eoEAqjcUD43c5zG99hPFKms",
+    authDomain: "outlook-3a951.firebaseapp.com",
+    projectId: "outlook-3a951",
+    storageBucket: "outlook-3a951.firebasestorage.app",
+    messagingSenderId: "242691869386",
+    appId: "1:242691869386:web:c2e51e2c8ec62a1ff64233",
   };
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
